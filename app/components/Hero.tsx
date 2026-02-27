@@ -144,7 +144,7 @@ export default function Hero() {
             <p className="text-sm text-text-dim mb-4">
               До старта нового потока:
             </p>
-            <div className="flex justify-center gap-3 sm:gap-4">
+            <div className="flex justify-center gap-2 sm:gap-4">
               <TimerBlock value={countdown.days} label="дней" />
               <TimerBlock value={countdown.hours} label="часов" />
               <TimerBlock value={countdown.minutes} label="минут" />

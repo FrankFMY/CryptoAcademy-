@@ -75,7 +75,7 @@ export default function Reviews() {
                 &ldquo;{review.text}&rdquo;
               </p>
 
-              <div className="flex items-center justify-between pt-4 border-t border-border">
+              <div className="flex items-center justify-between gap-3 pt-4 border-t border-border flex-wrap">
                 <div>
                   <div className="font-bold text-white text-sm">
                     {review.name}
