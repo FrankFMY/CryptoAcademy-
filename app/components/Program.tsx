@@ -110,7 +110,7 @@ function AccordionItem({
             transition={{ duration: 0.3 }}
             className="overflow-hidden"
           >
-            <ul className="px-5 sm:px-6 pb-5 sm:pb-6 pl-[4.25rem] sm:pl-[4.75rem] space-y-2.5">
+            <ul className="px-5 sm:px-6 pb-5 sm:pb-6 pl-[4.75rem] sm:pl-[5rem] space-y-2.5">
               {module.topics.map((topic) => (
                 <li
                   key={topic}
